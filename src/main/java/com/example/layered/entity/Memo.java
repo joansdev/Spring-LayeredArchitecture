@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class Memo {
 
-    @Setter // 변경해야되는 값(id) 위에만 세터 구현 -> 클래스 전체에 구현 ㄴㄴ
     private Long id;
     private String title;
     private String contents;
